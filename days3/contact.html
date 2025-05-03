@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portofolio | Toriq Rosid</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous" />
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <!-- ini navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light shadow" style="background-color: #f9f7f7">
+      <div class="container">
+        <a class="navbar-brand" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMD1R_e2MlTpAfs2XQKS-JBZuElrFIutiFOA&s"><img src="../days2/img/dumbways.png" alt="DumbWays" style="width: 60px" /></a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item" style="background-color: #f9f7f7">
+              <a class="nav-link home link-offset-5 fw-semibold fs-3" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item" style="background-color: #f9f7f7">
+              <a class="nav-link project fs-3" href="../days2/profile.html">My Project</a>
+            </li>
+          </ul>
+          <div class="d-flex" role="search">
+            <a href="#message"><button class="nav-contact" style="width: 160px; height: 45px; border-radius: 15px" type="submit">Contact Me</button></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- akhir navbar -->
+
+    <!-- ini contact me -->
+
+    <div class="container-form">
+      <div class="d-flex justify-content-center">
+        <h2 id="message" class="d-flex title fs-1 fw-bold py-5">GET IN TOUCH</h2>
+      </div>
+      <div class="d-flex form justify-content-center">
+        <form action="contactme" class="d-flex">
+          <div class="mb-3">
+            <label for="name" class="form-name" style="width: 700px">Name</label>
+            <input type="text" class="form-control shadow" style="height: 60px" id="name" />
+            <label for="email" class="form-email" style="width: 700px">Email</label>
+            <input type="email" class="form-control shadow" style="height: 60px" id="email" />
+            <label for="number" class="form-number" style="width: 700px">Phone Number</label>
+            <input type="number" class="form-control shadow" style="height: 60px" id="number" />
+            <label class="form-subject" for="floatingSelect">Subject</label>
+            <select class="form-select shadow" id="floatingSelect" style="height: 60px" aria-label="Floating label select example">
+              <option selected></option>
+              <option value="1">Kritik</option>
+              <option value="2">Saran</option>
+              <option value="3">Customer Service</option>
+            </select>
+            <label class="form-message" for="floatingTextarea2">Your Message</label>
+            <textarea class="form-control shadow" id="floatingTextarea2" style="height: 200px"></textarea>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <button class="submit me-md-2" type="button">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- akhir contact me -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+  </body>
+</html>
